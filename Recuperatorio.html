@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+</head>
+<body>
+    <h1>Bienvenidos</h1>
+    <p>Somos un restaurante familiar que ofrece lo mejor de la cocina tradicional. ¡Ven a visitarnos!</p>
+    <h2>Menú del Día</h2>
+    <h3>Entradas</h3>
+    <ul>
+        <li>Empanadas criollas</li>
+        <li>Sopa de verduras</li>
+    </ul>
+    <h3>Postres</h3>
+    <ul>
+        <li>Flan casero</li>
+        <li>Helado artesanal</li>
+    </ul
+    <p><b>Preparación del plato especial:</b></p> <!-- Revisar -->
+    <ol>
+        <li>Marinar la carne con especias.</li>
+        <li>Cocinar a fuego lento durante 2 horas.</li>
+        <li>Acompañar con papas rústicas.</li>
+    </ol>
+    <p><b>Precios</b></p>
+
+    <table border="1px">
+        <tr>
+            <th>Plato</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+        </tr>
+        <tr>    
+            <td>Milanesa con papas</td>
+            <td>Clásica milanesa de carne con guarnición</td>
+            <td>$3500</td>
+        </tr>
+        <tr>
+            <td>Ensalada César</td>
+            <td>Lechuga, pollo, crutones y salsa césar</td>
+            <td>$2800</td>
+        </tr>
+
+    </table>
+    <h2>Reservar una Mesa</h2>
+    <form>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" nombre="nombre"><br>
+        
+        <label for="email">Correo Electrónico</label><br>
+        <input type="email" id="email" name="email"><br>
+
+         <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono">
+        <input type="submit" value="Enviar"><br>
+
+        <label for="fecha">Fecha:</label><br>
+        <input type="date" id="fecha" name="fecha"><br>
+
+         <label for="hora">Hora:</label><br>
+        <input type="time" id="hora" name="hora"><br>
+        
+        <label for="opciones">Cantidad de personas:</label><br>
+        <select id="opciones" name="opciones">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        <input type="radio" id="opcion1" name="opcion" value="valor1">
+        <label for="opcion1">¿Desea espacio al aire libre?</label><br>
+        <input type="radio" id="opcion2" name="opcion" value="valor2">
+        <label for="opcion2">Sí</label><br>
+        <input type="checkbox" name="opcion1" value="valor1"> <label for="opcion1">No servicios adicionales:</label><br>
+        <input type="checkbox" name="opcion2" value="valor2"> <label for="opcion2">Decoración de cumpleaños</label>
+
+
+  </select>
+    </form>
+
+
+</body>
+
+</html>
