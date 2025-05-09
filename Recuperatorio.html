@@ -1,85 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Restaurante</title>
 </head>
+
 <body>
-    <h1>Bienvenidos</h1>
-    <p>Somos un restaurante familiar que ofrece lo mejor de la cocina tradicional. ¡Ven a visitarnos!</p>
-    <h2>Menú del Día</h2>
-    <h3>Entradas</h3>
-    <ul>
-        <li>Empanadas criollas</li>
-        <li>Sopa de verduras</li>
-    </ul>
-    <h3>Postres</h3>
-    <ul>
-        <li>Flan casero</li>
-        <li>Helado artesanal</li>
-    </ul
-    <p><b>Preparación del plato especial:</b></p> <!-- Revisar -->
-    <ol>
-        <li>Marinar la carne con especias.</li>
-        <li>Cocinar a fuego lento durante 2 horas.</li>
-        <li>Acompañar con papas rústicas.</li>
-    </ol>
-    <p><b>Precios</b></p>
+    <header>
+        <section class="titulo">
+            <h1 class="tituloPrincipal">Restaurante delisioso</h1>
+            <p class="descripcionPrincipal">Comida casera...</p>
+        </section>
+        <nav>
+            <a class="link" href="#">INICIO</a>
+            <a class="link" href="#">MENU</a>
+            <a class="link" href="#">RESERVAS</a>
+            <a class="link" href="#">CONCTACTO</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Bienvenidos</h1>
+        <p>Somos un restaurante familiar que ofrece lo mejor de la cocina tradicional. ¡Ven a visitarnos!</p>
+        <h2>Menú del Día</h2>
+        <h3>Entradas</h3>
+        <ul>
+            <li>Empanadas criollas</li>
+            <li>Sopa de verduras</li>
+        </ul>
 
-    <table border="1px">
-        <tr>
-            <th>Plato</th>
-            <th>Descripción</th>
-            <th>Precio</th>
-        </tr>
-        <tr>    
-            <td>Milanesa con papas</td>
-            <td>Clásica milanesa de carne con guarnición</td>
-            <td>$3500</td>
-        </tr>
-        <tr>
-            <td>Ensalada César</td>
-            <td>Lechuga, pollo, crutones y salsa césar</td>
-            <td>$2800</td>
-        </tr>
+        <h3>Postres</h3>
+        <ul>
+            <li>Flan casero</li>
+            <li>Helado artesanal</li>
+        </ul>
 
-    </table>
-    <h2>Reservar una Mesa</h2>
-    <form>
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" nombre="nombre"><br>
-        
-        <label for="email">Correo Electrónico</label><br>
-        <input type="email" id="email" name="email"><br>
+        <p><b>Preparación del plato especial:</b></p>
+        <ol>
+            <li>Marinar la carne con especias.</li>
+            <li>Cocinar a fuego lento durante 2 horas.</li>
+            <li>Acompañar con papas rústicas.</li>
+        </ol>
 
-         <label for="telefono">Teléfono:</label><br>
-        <input type="tel" id="telefono" name="telefono">
-        <input type="submit" value="Enviar"><br>
+        <p><b>Precios</b></p>
 
-        <label for="fecha">Fecha:</label><br>
-        <input type="date" id="fecha" name="fecha"><br>
+        <table border="1px">
+            <tr>
+                <th>Plato</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Milanesa con papas</td>
+                <td>Clásica milanesa de carne con guarnición</td>
+                <td>$3500</td>
+            </tr>
+            <tr>
+                <td>Ensalada César</td>
+                <td>Lechuga, pollo, crutones y salsa césar</td>
+                <td>$2800</td>
+            </tr>
 
-         <label for="hora">Hora:</label><br>
-        <input type="time" id="hora" name="hora"><br>
-        
-        <label for="opciones">Cantidad de personas:</label><br>
-        <select id="opciones" name="opciones">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-        <input type="radio" id="opcion1" name="opcion" value="valor1">
-        <label for="opcion1">¿Desea espacio al aire libre?</label><br>
-        <input type="radio" id="opcion2" name="opcion" value="valor2">
-        <label for="opcion2">Sí</label><br>
-        <input type="checkbox" name="opcion1" value="valor1"> <label for="opcion1">No servicios adicionales:</label><br>
-        <input type="checkbox" name="opcion2" value="valor2"> <label for="opcion2">Decoración de cumpleaños</label>
+        </table>
+        <h2>Reservar una Mesa</h2>
+        <form class="formulario">
+            <div class="contenedorInput">
+                <label class="lbl" for="nombre">Nombre:</label>
+                <input class="input" type="text" id="nombre" nombre="nombre">
+            </div>
 
 
-  </select>
-    </form>
+            <div class="contenedorInput">
+                <label for="email">Correo Electrónico</label><br>
+                <input type="email" id="email" name="email"><br>
+            </div>
 
 
+            <div class="contenedorInput">
+                <label class="lbl" for="nombre">Nombre:</label>
+                <input class="input" type="text" id="nombre" nombre="nombre">
+            </div>
+
+
+            <div class="contenedorInput">
+                <label class="lbl" for="opciones">Cantidad de personas:</label><br>
+                <select class="input" id="opciones" name="opciones">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+
+            <!--
+
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono">
+
+            <label for="fecha">Fecha:</label><br>
+            <input type="date" id="fecha" name="fecha"><br>
+
+            <label for="hora">Hora:</label><br>
+            <input type="time" id="hora" name="hora"><br>
+
+            <label for="opciones">Titulo TextArea:</label><br>
+            <textarea name="" id=""></textarea>-->
+
+            <div class="contenedorCheck">
+                <label class="lblCheck" for="opcion1">¿Desea espacio al aire libre?</label>
+                <input type="radio" id="opcion1" name="opcion" value="valor1">
+            </div>
+
+                <!--<label for="opcion2">Sí</label>
+                <input type="radio" id="opcion2" name="opcion" value="valor2">
+
+                <label for="opcion1">No servicios
+                    adicionales:</label>
+                <input type="checkbox" name="opcion1" value="valor1">
+
+                <label for="opcion2">Decoración de
+                    cumpleaños</label>
+                <input type="checkbox" name="opcion2" value="valor2">-->
+                <button class="btnEnviar">enviar</button>
+        </form>
+        <div class="promociones">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam aliquam doloremque odio aspernatur voluptas tempore enim dolores quisquam amet? Nisi atque expedita minima magnam, magni earum. At incidunt aut natus.</p>
+        </div>
+    </main>
+    <footer>
+        <p class="txtFooter"><i class="fa-solid fa-map-pin icono"></i>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+        <p class="txtFooter"><i class="fa-solid fa-phone icono"></i>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+        <p class="txtFooter">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+    </footer>
 </body>
 
 </html>

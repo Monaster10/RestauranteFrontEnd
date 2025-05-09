@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: orange;
+}
+
+.titulo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: wheat;
+    background-color: rebeccapurple;
+}
+
+.tituloPrincipal{
+    margin: 10px 5px;
+    background-color: antiquewhite;
+}
+
+.descripcionPrincipal{
+    margin: 10px 5px 10px 5px;
+    background-color: aliceblue;
+}
+
+nav{
+    width: 100%;
+    background-color: aqua;
+    padding: 15px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul, ol {
+    margin-left: 2rem;
+    padding-left: 1rem;
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+
+.link{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+    background-color: red;
+}
+
+main{
+    padding: 10px;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: yellow;
+}
+
+.contenedorInput{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    background-color: pink;
+}
+
+.lbl{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.input{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.contenedorCheck{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+    background-color: yellow;
+}
+
+.lblCheck{
+    font-size: 24px;
+    margin-right: 35%;
+    background-color: chartreuse;
+}
+
+.btnEnviar{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.promociones{
+    width: 100%;
+    padding: 10px 5px;
+    border-style: none none none solid;
+    border-color: blue;
+    background-color: aqua;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2f3d53;
+    color: white;
+    padding: 10px;
+}
+
+.txtFooter{
+    margin: 10px 5px;
+    font-size: 20px;
+}
+
+.icono{
+    color: red;
+    margin-right: 5px;
+}
