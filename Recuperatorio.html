@@ -48,7 +48,7 @@
 
         <p><b>Precios</b></p>
 
-        <table border="1px">
+        <table class="mi-tabla">
             <tr>
                 <th>Plato</th>
                 <th>Descripción</th>
@@ -75,16 +75,25 @@
 
 
             <div class="contenedorInput">
-                <label for="email">Correo Electrónico</label>
-                <input type="email" id="email" name="email">
+                <label class="lbl" for="email">Correo Electrónico</label>
+                <input class="input" type="email" id="email" name="email">
             </div>
 
 
             <div class="contenedorInput">
-                <label class="lbl" for="nombre">Nombre:</label>
-                <input class="input" type="text" id="nombre" nombre="nombre">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
             </div>
 
+            <div class="contenedorInput">
+                <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha">
+            </div>
+
+            <div class="contenedorInput">
+                <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora">
+            </div>
 
             <div class="contenedorInput">
                 <label class="lbl" for="opciones">Cantidad de personas:</label>
@@ -95,48 +104,40 @@
                 </select>
             </div>
 
-            <div class="contenedorInput">
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" id="telefono" name="telefono">
-            </div>
-
-            <div class="contenedorInput">
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" id="telefono" name="telefono">
-            </div>
-                
-            
-            <div class="contenedorInput"></div>
-
-            <label for="fecha">Fecha:</label>
-            <input type="date" id="fecha" name="fecha">
-
-            <label for="hora">Hora:</label>
-            <input type="time" id="hora" name="hora">
-
-            <label for="opciones">Titulo TextArea:</label>
-            <textarea name="" id=""></textarea>-->
-
             <div class="contenedorCheck">
                 <label class="lblCheck" for="opcion1">¿Desea espacio al aire libre?</label>
                 <input type="radio" id="opcion1" name="opcion" value="valor1">
             </div>
+
+            <div class="contenedorCheck">
+                <label class="lblCheck" for="opcion1">Si</label>
+                <input type="radio" id="opcion1" name="opcion" value="valor1">
+            </div>
+
+
             <div class="contenedorCheck">
                 <label class="lblCheck" for="opcion2">¿Desea menú vegetariano?</label>
                 <input type="radio" id="opcion2" name="opcion" value="valor2">
             </div>
-                
 
-                <label for="opcion1">No servicios
+            <div class="contenedorCheck">
+                <label class="lblCheck" for="opcion1">No servicios
                     adicionales:</label>
                 <input type="checkbox" name="opcion1" value="valor1">
+            </div>
 
-                <label for="opcion2">Decoración de
+            <div class="contenedorCheck">
+                <label class="lblCheck" for="opcion2">Decoración de
                     cumpleaños</label>
                 <input type="checkbox" name="opcion2" value="valor2">
-                
+            </div>
 
-                <button class="btnEnviar">Enviar</button>
+            <div class="contenedorInput">
+                <label for="opciones">Titulo TextArea:</label>
+                <textarea name="" id=""></textarea>
+            </div>
+
+            <button class="btnEnviar">Enviar</button>
         </form>
         <div class="promociones">
             <p>Lorem ipsum dolor</p>
