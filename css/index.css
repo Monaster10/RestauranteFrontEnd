@@ -10,7 +10,7 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: orange;
+    background-color: #d35400;
 }
 
 .titulo{
@@ -19,27 +19,24 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: wheat;
-    background-color: rebeccapurple;
+    color: white;
 }
 
 .tituloPrincipal{
     margin: 10px 5px;
-    background-color: antiquewhite;
 }
 
 .descripcionPrincipal{
     margin: 10px 5px 10px 5px;
-    background-color: aliceblue;
 }
 
 nav{
     width: 100%;
-    background-color: aqua;
     padding: 15px 5px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #e67e22;
 }
 
 ul, ol {
@@ -61,8 +58,6 @@ ol {
     text-decoration: none;
     color: white;
     margin: 0px 10px;
-    background-color: red;
-
 }
 
 main{
@@ -92,7 +87,6 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: yellow;
 }
 
 .contenedorInput{
@@ -138,15 +132,16 @@ main{
     padding: 10px;
     margin: 10px 0px;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .promociones{
     width: 100%;
-    padding: 10px 5px;
+    padding: 10px;
     border-style: none none none solid;
-    border-color: blue;
-    background-color: aqua;
+    border-color:#e67e22;
+    background-color: #fff3e0;
+    color: #000;
 }
 
 footer{
@@ -155,7 +150,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #2f3d53;
+    background-color: #2c3e50;
     color: white;
     padding: 10px;
 }
@@ -166,7 +161,7 @@ footer{
 }
 
 .icono{
-    color: red;
+    color: #b13c73;
     margin-right: 5px;
 }
 
